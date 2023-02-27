@@ -47,11 +47,35 @@ export default function Home() {
           voluptatum nihil tenetur sapiente doloribus, ab nostrum quia
           aspernatur laudantium molestias.
         </p>
-        <ul className='list-decimal'>
+        <ul className='list-inside list-disc'>
           <li>Phase 1</li>
           <li>Phase 2</li>
           <li>Phase 3</li>
         </ul>
+      </div>
+      <article className='prose prose-slate lg:prose-xl'>
+        <h1>Garlic bread with cheese: What the science tells us</h1>
+        <p>
+          For years parents have espoused the health benefits of eating garlic
+          bread with cheese to their children, with the food earning such an
+          iconic status in our culture that kids will often dress up as warm,
+          cheesy loaf for Halloween.
+        </p>
+        <p>
+          But a recent study shows that the celebrated appetizer may be linked
+          to a series of rabies cases springing up around the country.
+        </p>
+      </article>
+      <div>
+        <label htmlFor='username'>User Name</label>
+        <input
+          type='text'
+          id='username'
+          className='form-input block rounded-full'
+        />
+        <button className='block rounded-lg border-2 border-black bg-gray-500 p-2 text-white'>
+          Submit
+        </button>
       </div>
     </>
   );
