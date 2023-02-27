@@ -22,24 +22,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div>
-        <div className='mb-10'>
-          <button className='border border-black p-10'>One</button>
-          <button className='m-10 border border-black'>Two</button>
-          <button className='m-2 border-4 border-black p-2'>Three</button>
-        </div>
-        <div>
-          <button className='m-4 rounded-md border-2 border-black p-4'>
-            Four
-          </button>
-          <button className='m-4 rounded-2xl border-2 border-black p-4'>
-            Five
-          </button>
-          <button className='m-4 rounded-full border-2 border-black p-4'>
-            Six
-          </button>
-        </div>
-      </div>
+
       <div className='h-full bg-slate-500 text-center'>
         <p className='text-base font-bold capitalize leading-normal tracking-widest text-white underline decoration-wavy decoration-2 selection:bg-red-400'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia
@@ -66,16 +49,69 @@ export default function Home() {
           to a series of rabies cases springing up around the country.
         </p>
       </article>
-      <div>
+      <div className='my-10'>
         <label htmlFor='username'>User Name</label>
         <input
           type='text'
           id='username'
           className='form-input block rounded-full'
         />
-        <button className='block rounded-lg border-2 border-black bg-gray-500 p-2 text-white'>
+        <button className='m-4 block rounded-lg border-4 border-black bg-gray-500 p-2 text-white'>
           Submit
         </button>
+      </div>
+      <div>
+        <div className='mb-10'>
+          <button className='border border-black p-10'>One</button>
+          <button className='m-10 border border-black'>Two</button>
+          <button className='m-2 border-4 border-black p-2'>Three</button>
+        </div>
+        <div>
+          <button className='m-4 rounded-md border-2 border-black p-4'>
+            Four
+          </button>
+          <button className='m-4 rounded-2xl border-2 border-black p-4'>
+            Five
+          </button>
+          <button className='m-4 rounded-full border-2 border-black p-4'>
+            Six
+          </button>
+        </div>
+        <div>
+          <button className='m-4 rounded-md p-4 ring'>Four</button>
+          <button className='m-4 rounded-2xl border-2 border-black p-4 ring-2'>
+            Five
+          </button>
+          <button className='m-4 rounded-full p-4 ring-4 ring-offset-4 ring-offset-amber-200'>
+            Six
+          </button>
+        </div>
+      </div>
+      <div className='bg-gray-50 p-10'>
+        <div className='mb-10'>
+          <button className='mx-10 bg-white p-10 shadow-sm'>One</button>
+          <button className='mx-10 bg-white p-10 shadow-md'>Two</button>
+          <button className='mx-10 bg-white p-10 shadow-lg'>Three</button>
+        </div>
+        <div>
+          <button className='mx-10 bg-white p-10 shadow-xl'>Four</button>
+          <button className='mx-10 bg-white p-10 shadow-2xl'>Five</button>
+          <button className='mx-10 bg-white p-10 shadow-inner'>Six</button>
+        </div>
+      </div>
+      <div>
+        <div className='mb-10 w-1/2 bg-gradient-to-r from-gray-50 to-black p-10'>
+          <button className='mx-10 bg-white p-10'>One</button>
+          <button className='mx-10 bg-white p-10'>Two</button>
+        </div>
+        <div className='mb-10 w-1/2 bg-gradient-to-r from-gray-50 via-black to-gray-50 p-10'>
+          <button className='mx-10 bg-white p-10'>Three</button>
+          <button className='mx-10 bg-white p-10'>Four</button>
+        </div>
+        <div className='mb-10 w-1/2 bg-center [background-image:url(https://images.unsplash.com/photo-1677416863499-ddb5ee72bb46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)]'>
+          <button className='mx-10 bg-white p-10'>Five</button>
+          <button className='mx-10 bg-white p-10'>Six</button>
+        </div>
       </div>
     </>
   );
